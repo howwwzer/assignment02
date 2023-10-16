@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
+/*base*/
+html, body {
+    height: 100%;
+}
+
 /*font styling*/
 h1, h2, p {
    font-family: 'Space Grotesk', sans-serif; 
@@ -19,3 +24,10 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+/*add hover to desktop nav*/
+
+/*main styling
+main {
+    max-width: 90%;
+    text-align: center;
+}*/
