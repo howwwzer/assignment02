@@ -15,6 +15,9 @@ h1, h2, p {
 /*header styling*/
 
 /*hero img*/
+
+/* CREDIT: parts of hero img code from geeksforgeeks*/
+/*double-check that it matches jeff's code*/
 .space {
     opacity: 95%;
     width: 100%;
@@ -32,7 +35,7 @@ h1, h2 {
     position: relative;
 }
 .logo h2 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 /*navbar styling*/
@@ -57,6 +60,12 @@ nav ul li a {
     font-family: 'Space Grotesk', sans-serif; 
 }
 /*add hover to desktop nav*/
+/*!!!highlight which tab you are currently on, this MUST MATCH THE HOVER BEHAVIOR*/
+
+.current {
+    border: #000000;
+    border-radius: 20%;
+}
 
 /*main styling*/
 main {
