@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
+/*QUESTION: how to align items so they line up on the left?????*/
+
 /*base*/
 html, body {
     height: 100%;
@@ -10,9 +12,31 @@ h1, h2, p {
    font-family: 'Space Grotesk', sans-serif; 
 }
 
+/*header styling*/
+
+/*hero img*/
+.space {
+    opacity: 95%;
+    width: 100%;
+}
+         
+/*heading and subheading*/
+.logo {
+    text-align:center;
+    position: absolute;
+    font-size: 18px;
+    top: 50px;
+    color: #FFFFFF;
+}
+h1, h2 {
+    position: relative;
+}
+
 /*navbar styling*/
-nav {
-    margin: auto;
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
@@ -27,6 +51,7 @@ nav ul li a {
     padding-right: 2rem; 
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif; 
 }
 /*add hover to desktop nav*/
 
@@ -34,4 +59,12 @@ nav ul li a {
 main {
     max-width: 85%;
     margin: auto;
+}
+
+/*footer styling*/
+footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
