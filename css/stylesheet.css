@@ -62,6 +62,12 @@ nav ul li a {
 /*add hover to desktop nav*/
 /*!!!highlight which tab you are currently on, this MUST MATCH THE HOVER BEHAVIOR*/
 
+nav ul li a:hover {
+    background-color: blue;
+}
+
+/*why is this not working?*/
+
 .current {
     border: #000000;
     border-radius: 20%;
