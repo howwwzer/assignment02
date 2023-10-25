@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
-/*QUESTION: how to align items so they line up on the left?????*/
+/*fullscreen*/
+/*fix min-height*/
+@media (min-height: 680px) {
+    html{
+        height: 100%;
+        width: 100%;
+       }
+       
+       body{
+        width: 100%;
+        height: 100%;
+       }  
+/*
+       main {
+        width: 75%;
+       }
+*/
+  }
+  
 
 /*base*/
 html, body {
-    height: 100%;
+    height: 100vh;
 }
 
 /*font styling*/
@@ -15,20 +33,28 @@ h1, h2, p {
 /*header styling*/
 
 /*hero img*/
+/*
+header {
+    background-image: url('img/spacelaunch.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+  }
+*/
 
 /* CREDIT: parts of hero img code from geeksforgeeks*/
-/*double-check that it matches jeff's code*/
+/*double-check that it matches jeff's code */    
 .space {
     opacity: 95%;
     width: 100%;
 }
-         
+    
 /*heading and subheading*/
 .logo {
     text-align:center;
     position: absolute;
-    top: 50px; 
-    left: 100px;
+    top: 20rem;
+    left: 30rem;
     color: #FFFFFF;
 }
 h1, h2 {
@@ -53,24 +79,53 @@ nav ul {
     display: flex;
 }
 
-nav ul li a {
+nav ul li {
     padding-right: 2rem; 
+}
+
+nav ul li a {
     text-decoration: none;
     font-weight: bold;
     font-family: 'Space Grotesk', sans-serif; 
+    color:#000000;
 }
-/*add hover to desktop nav*/
-/*!!!highlight which tab you are currently on, this MUST MATCH THE HOVER BEHAVIOR*/
 
-nav ul li a:hover {
-    background-color: blue;
-}
+/*link animation adjusted from 30 seconds of code*/
+
+.link-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .link-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .link-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+
 
 /*why is this not working?*/
 
 .current {
-    border: #000000;
-    border-radius: 20%;
+    content: '';
+ /*   position: absolute; */
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
 }
 
 /*main styling*/
