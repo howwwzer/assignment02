@@ -151,15 +151,15 @@ h1, h2, p {
 
 /*hero img, used jeff's website and w3schools for help*/
 
-/* The hero image */
+/* The hero image*/
 .container {
-    background-color: #637782; 
-    background-image: url('../images/pexels-edvin-richardson.jpg'); /*this won't load????  I know that the file path is correct*/
-    background-repeat: no-repeat;    
+    background-image: url("../images/pexels-edvin-richardson.jpg");
+ /*background-color: #637782; 
+  background-repeat: no-repeat;    
     background-position: center; 
     background-attachment: fixed;
     background-size: cover;
- /*    position: relative;   keep?*/
+     position: relative; keep?*/
   }
   
   .title {
