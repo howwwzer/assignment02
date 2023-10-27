@@ -26,23 +26,22 @@ h1, h2, p {
 
 /* The hero image */
 .container {
-/*    background-color: #637782; */
-    background-image: url('../images/pexels-edvin-richardson.jpg'); /*this won't load???? */
-/*    background-position: center; */
-    background-repeat: no-repeat;
+    background-image: url("../images/pexels-edvin-richardson.jpg");
+    background-color: #637782; 
+    background-repeat: no-repeat;    
+    background-position: center; 
     background-attachment: fixed;
     background-size: cover;
- /*    position: relative;keep?*/
+    display: flex;
+    justify-content: center;
+    /*position: relative;*/
   }
   
   .title {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
+    text-align: center;
   }
+
 
 /*
 
@@ -154,21 +153,19 @@ h1, h2, p {
 /* The hero image*/
 .container {
     background-image: url("../images/pexels-edvin-richardson.jpg");
- /*background-color: #637782; 
-  background-repeat: no-repeat;    
+    background-color: #637782; 
+    background-repeat: no-repeat;    
     background-position: center; 
     background-attachment: fixed;
     background-size: cover;
-     position: relative; keep?*/
+    display: flex;
+    justify-content: center;
+    /*position: relative;*/
   }
   
   .title {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
+    text-align: center;
   }
 
 /*
