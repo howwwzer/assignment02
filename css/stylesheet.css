@@ -2,7 +2,7 @@
 
 /*fullscreen*/
 /*fix min-height*/
-@media (min-height: 680px) {
+@media screen and (min-wdith: 769px) {
     html{
         height: 100%;
         width: 100%;
