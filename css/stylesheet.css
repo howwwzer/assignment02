@@ -119,6 +119,7 @@ nav ul li a {
 main {
     max-width: 90%;
     margin: auto;
+    text-align: justify;
 }
 
 /*footer styling*/
@@ -152,13 +153,13 @@ h1, h2, p {
 
 /* The hero image */
 .container {
-/*    background-color: #637782; */
-    background-image: url('../images/pexels-edvin-richardson.jpg'); /*this won't load????  I know that the file path is correctS*/
-/*    background-position: center; */
-    background-repeat: no-repeat;
+    background-color: #637782; 
+    background-image: url('../images/pexels-edvin-richardson.jpg'); /*this won't load????  I know that the file path is correct*/
+    background-repeat: no-repeat;    
+    background-position: center; 
     background-attachment: fixed;
     background-size: cover;
- /*    position: relative;keep?*/
+ /*    position: relative;   keep?*/
   }
   
   .title {
@@ -245,6 +246,7 @@ nav ul li a {
 main {
     max-width: 60%;
     margin: auto;
+    text-align: justify;
 }
 
 /*footer styling*/
